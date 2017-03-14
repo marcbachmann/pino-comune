@@ -1,0 +1,16 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js | ../bin.js",
+    "benchmark": "autocannon http://localhost:3000"
+  },
+  "author": "Marc Bachmann <marc.brookman@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^0.16.1",
+    "pino-http": "^2.4.2"
+  }
+}
